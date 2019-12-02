@@ -1,0 +1,41 @@
+body{
+  color: #555;
+  font-family: "Hiragino Kaku Gothic Pro",'Open Sans','Noto Sans JP',"ＭＳ Ｐゴシック","MS PGothic","メイリオ",Verdana,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+a{
+  color: #555;
+  text-decoration: none;
+  transition: 0.3s ease-in-out all;
+  &:hover{
+    color: #ccc;//#f2bcad
+  }
+}
+
+img{
+  max-width: 100%;
+}
+
+h2{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  padding-left: 30px;
+  position: relative;
+  &:before{
+    content: '';
+    width: 20px;
+    height: 1px;
+    margin: auto;
+    background: #222;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

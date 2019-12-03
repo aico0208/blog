@@ -1,0 +1,17 @@
+.l-container {
+  max-width: 1100px;
+  width: 94%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .u-pc {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .u-sp {
+    display: none;
+  }
+}

@@ -15,3 +15,9 @@
     display: none;
   }
 }
+
+.u-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

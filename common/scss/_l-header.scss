@@ -1,3 +1,16 @@
-.header{
 
+.l-header{
+  width: 94%;
+  margin: auto;
+}
+
+.p-headercontents{
+  font-size: 16px;
+  padding: 32px 0 24px;
+  &.u-flex{
+    justify-content: space-between;
+  }
+  li{
+    padding: 0 24px;
+  }
 }

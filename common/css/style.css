@@ -106,6 +106,10 @@ h3:before {
   margin: auto;
 }
 
+.l-header h1 img {
+  width: 75px;
+}
+
 .p-headercontents {
   font-size: 16px;
   padding: 32px 0 24px;
@@ -152,6 +156,10 @@ h3:before {
 .p-footercontents {
   font-size: 16px;
   border-top: 1px solid #999;
+}
+
+.p-footercontents__logo img {
+  width: 75px;
 }
 
 .p-footercontents__copyright {

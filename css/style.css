@@ -1,0 +1,11 @@
+.p-newpost h2 img {
+  width: 390px;
+}
+
+.p-photo {
+  position: relative;
+}
+
+.p-photo__main {
+  position: absolute;
+}

@@ -1,7 +1,13 @@
 
 .p-photo{
-  // position: relative;
-  // &__main{
-  //   position: absolute;
-  // }
+  &__main{
+    width: 810px;
+    margin: 0 0 0 auto;
+  }
+}
+
+.c-photo{
+  width: 60%;
+  padding: 56px 0;
+  background: #f7edea;
 }

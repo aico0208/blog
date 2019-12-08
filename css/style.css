@@ -82,10 +82,15 @@
   margin: 0 0 0 auto;
 }
 
-.c-photo {
+.c-photocontents {
   width: 60%;
   padding: 56px 0;
   background: #f7edea;
+}
+
+.c-photocontents__textbox {
+  width: 50%;
+  margin: auto;
 }
 
 .p-about {

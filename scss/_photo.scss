@@ -6,8 +6,12 @@
   }
 }
 
-.c-photo{
+.c-photocontents{
   width: 60%;
   padding: 56px 0;
   background: #f7edea;
+  &__textbox{
+    width: 50%;
+    margin: auto;
+  }
 }

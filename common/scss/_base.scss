@@ -1,5 +1,5 @@
 body{
-  color: #333;
+  color: #555;
   font-family: 'Noto Sans JP',"Hiragino Kaku Gothic Pro",'Open Sans','Noto Sans JP',"ＭＳ Ｐゴシック","MS PGothic","メイリオ",Verdana,Arial,sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -9,7 +9,7 @@ body{
 }
 
 a{
-  color: #333;
+  color: #555;
   text-decoration: none;
   transition: 0.3s ease-in-out all;
   &:hover{
@@ -25,17 +25,18 @@ h3{
   font-family: 'Open Sans',sans-serif;
   font-size: 18px;
   letter-spacing: 4px;
-  padding-left: 30px;
+  padding-right: 110px;
   position: relative;
+  display: inline-block;
   &:before{
     content: '';
-    width: 20px;
+    width: 100px;
     height: 1px;
     margin: auto;
-    background: #222;
+    background: #555;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    right: 0;
   }
 }

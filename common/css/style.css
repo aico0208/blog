@@ -57,7 +57,7 @@ table {
 
 body {
   color: #333;
-  font-family: 'Open Sans',"Hiragino Kaku Gothic Pro",'Open Sans','Noto Sans JP',"ＭＳ Ｐゴシック","MS PGothic","メイリオ",Verdana,Arial,sans-serif;
+  font-family: 'Noto Sans JP',"Hiragino Kaku Gothic Pro",'Open Sans','Noto Sans JP',"ＭＳ Ｐゴシック","MS PGothic","メイリオ",Verdana,Arial,sans-serif;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
@@ -102,6 +102,7 @@ h3:before {
 }
 
 .l-header {
+  font-family: 'Open Sans', sans-serif;
   width: 94%;
   margin: auto;
 }
@@ -153,7 +154,16 @@ h3:before {
   display: flex;
 }
 
+.u-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.c-btn {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .l-footer {
+  font-family: 'Open Sans', sans-serif;
   background: #fbf9f8;
 }
 

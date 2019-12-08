@@ -1,9 +1,17 @@
 
 .p-newpost{
-  background: #f7edea;
+  margin-top: 40px;
+  padding: 80px 0;
+  background: linear-gradient(180deg, #fff 0%,#fff 160px, #f7edea 160px,#f7edea 100%);
   h2{
+    position: absolute;
+    left: -40px;
+    top: -50px;
     img{
       width: 390px;
     }
+  }
+  .l-container{
+    position: relative;
   }
 }

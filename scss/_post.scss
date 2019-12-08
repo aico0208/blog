@@ -1,5 +1,9 @@
 
 .p-journal{
+  padding: 80px 0;
+  ul{
+    margin: 40px 0;
+  }
   .u-flex{
     justify-content: space-between;
   }
@@ -8,18 +12,24 @@
 .c-post{
   width: 30%;
   position: relative;
+  h4{
+    font-size: 16px;
+  }
   &__img{
     width: 100%;
+    margin-bottom: 16px;
     display: block;
     img{
       width: 100%;
     }
   }
   &__date{
+    color: #aaa;
+    font-size: 12px;
+    letter-spacing: 2px;
     position: absolute;
     top: -10px;
-    right: -8px;
-    height: 14px;
+    right: -6px;
     display: inline-block;
     transform-origin: bottom right;
     transform: rotate(90deg) translate(100%, 0);

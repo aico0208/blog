@@ -42,9 +42,12 @@
   &__category{
     margin-top: 8px;
     a{
-      color: #e57777;
+      color: #ef9c9c;
       font-size: 12px;
       text-decoration: underline;
+      &:hover{
+        color: #e57777;
+      }
     }
   }
 }

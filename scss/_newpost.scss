@@ -12,24 +12,37 @@
     }
   }
   .l-container{
+    max-width: 1100px;
+    width: 90%;
     position: relative;
   }
 }
 
 .c-new{
+  &__text{
+    margin: 140px 0 0 80px;
+  }
+  &__textcontents{
+    margin-bottom: 40px;
+  }
   &__date{
     font-size: 14px;
+    margin-bottom: 12px;
     display: block;
   }
   &__title{
-    font-size: 22px;
+    font-size: 20px;
     display: block;
   }
   &__category{
+    margin-top: 12px;
     a{
       font-size: 14px;
-      color: #e57777;
+      color: #ef9c9c;
       text-decoration: underline;
+      &:hover{
+        color: #e57777;
+      }
     }
   }
 }

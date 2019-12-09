@@ -1,14 +1,21 @@
 
 .p-photo{
+  margin-bottom: 60px;
+  position: relative;
   &__main{
-    width: 810px;
-    margin: 0 0 0 auto;
+    position: absolute;
+    top: 70px;
+    right: 0;
   }
 }
 
 .c-photocontents{
-  padding: 56px 0;
-  background: #f7edea;
+  padding: 130px 0;
+  background: linear-gradient(90deg,#f7edea 0%,#f7edea 60%, #fff 60%,#fff 100%);
   &__textbox{
+    padding-left: 50px;
+  }
+  &__text{
+    margin: 40px 0 60px;
   }
 }

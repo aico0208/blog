@@ -7,6 +7,11 @@
   .u-flex{
     justify-content: space-between;
   }
+  .c-btn{
+    a{
+      margin: auto;
+    }
+  }
 }
 
 .c-post{
@@ -33,5 +38,13 @@
     display: inline-block;
     transform-origin: bottom right;
     transform: rotate(90deg) translate(100%, 0);
+  }
+  &__category{
+    margin-top: 8px;
+    a{
+      color: #e57777;
+      font-size: 12px;
+      text-decoration: underline;
+    }
   }
 }

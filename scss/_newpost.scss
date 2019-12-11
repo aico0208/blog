@@ -3,12 +3,22 @@
   margin-top: 40px;
   padding: 80px 0;
   background: linear-gradient(180deg, #fff 0%,#fff 160px, #f7edea 160px,#f7edea 100%);
+  @media screen and (max-width: 1000px){
+    margin-top: 20px;
+    background: linear-gradient(180deg, #fff 0%,#fff 140px, #f7edea 140px,#f7edea 100%);
+  }
   h2{
     position: absolute;
     left: -40px;
     top: -50px;
+    @media screen and (max-width: 1000px){
+      left: -30px;
+    }
     img{
       width: 390px;
+      @media screen and (max-width: 1000px){
+        width: 300px;
+      }
     }
   }
   .l-container{
@@ -21,6 +31,20 @@
 .c-new{
   &__text{
     margin: 140px 0 0 80px;
+    @media screen and (max-width: 1150px){
+      margin: 140px 0 0 60px;
+    }
+    @media screen and (max-width: 1000px){
+      margin: 100px 0 0 40px;
+    }
+  }
+  &__img{
+    @media screen and (max-width: 1000px){
+      width: 460px;
+    }
+    @media screen and (max-width: 900px){
+      width: 400px;
+    }
   }
   &__textcontents{
     margin-bottom: 40px;
@@ -33,6 +57,9 @@
   &__title{
     font-size: 20px;
     display: block;
+    @media screen and (max-width: 1000px){
+      font-size: 18px;
+    }
   }
   &__category{
     margin-top: 12px;

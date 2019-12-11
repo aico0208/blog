@@ -4,27 +4,42 @@
 }
 
 .p-footercontents{
-  font-size: 16px;
+  font-size: 14px;
   border-top: 1px solid #999;
   &__logo{
+    @media screen and (max-width: 767px){
+      text-align: center;
+    }
     img{
       width: 75px;
     }
   }
+  &__menu{
+    @media screen and (max-width: 767px){
+      width: 80%;
+      margin: 40px auto 0;
+    }
+    &.u-flex{
+      @media screen and (max-width: 767px){
+        justify-content: space-between;
+      }
+    }
+  }
   &__copyright{
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 16px;
   }
   a{
-    display: block;
-  }
-  li{
     padding: 0 24px;
+    display: block;
   }
   .c-contents{
     padding: 32px 0 24px;
     &.u-flex{
       justify-content: space-between;
+      @media screen and (max-width: 767px){
+        display: block;
+      }
     }
   }
 }

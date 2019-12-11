@@ -23,6 +23,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .p-newpost {
+    padding: 60px 0;
+  }
+}
+
 .p-newpost h2 {
   position: absolute;
   left: -40px;
@@ -32,6 +38,12 @@
 @media screen and (max-width: 1000px) {
   .p-newpost h2 {
     left: -30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .p-newpost h2 {
+    left: -10px;
   }
 }
 
@@ -45,10 +57,22 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .p-newpost h2 img {
+    width: 250px;
+  }
+}
+
 .p-newpost .l-container {
   max-width: 1100px;
   width: 90%;
   position: relative;
+}
+
+@media screen and (max-width: 640px) {
+  .p-newpost .u-flex {
+    display: block;
+  }
 }
 
 .c-new__text {
@@ -67,6 +91,12 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .c-new__text {
+    margin: 40px 0 0 0;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .c-new__img {
     width: 460px;
@@ -76,6 +106,18 @@
 @media screen and (max-width: 900px) {
   .c-new__img {
     width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .c-new__img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .c-new__img {
+    width: 100%;
   }
 }
 
@@ -118,6 +160,12 @@
   padding: 80px 0;
 }
 
+@media screen and (max-width: 767px) {
+  .p-journal {
+    padding: 60px 0;
+  }
+}
+
 .p-journal ul {
   margin: 40px 0;
 }
@@ -134,6 +182,12 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 767px) {
+  .p-journal .u-flex {
+    display: block;
+  }
+}
+
 .p-journal .c-btn a {
   margin: auto;
 }
@@ -141,6 +195,18 @@
 .c-post {
   width: 30%;
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .c-post {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .c-post:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .c-post h4 {
@@ -252,15 +318,18 @@
 
 @media screen and (max-width: 800px) {
   .c-photocontents {
-    background: -webkit-gradient(linear, left top, right top, from(#f7edea), color-stop(90%, #f7edea), color-stop(90%, #fff), to(#fff));
-    background: -webkit-linear-gradient(left, #f7edea 0%, #f7edea 90%, #fff 90%, #fff 100%);
-    background: -o-linear-gradient(left, #f7edea 0%, #f7edea 90%, #fff 90%, #fff 100%);
-    background: linear-gradient(90deg, #f7edea 0%, #f7edea 90%, #fff 90%, #fff 100%);
+    background: #f7edea;
   }
 }
 
 .c-photocontents__textbox {
   padding-left: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .c-photocontents__textbox {
+    padding-left: 30px;
+  }
 }
 
 .c-photocontents__text {

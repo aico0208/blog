@@ -240,6 +240,12 @@ h3:before {
   }
 }
 
+@media screen and (max-width: 550px) {
+  .p-footercontents__menu {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .p-footercontents__menu.u-flex {
     -webkit-box-pack: justify;
@@ -256,6 +262,18 @@ h3:before {
 .p-footercontents a {
   padding: 0 24px;
   display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .p-footercontents a {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .p-footercontents a {
+    padding: 0 8px;
+  }
 }
 
 .p-footercontents .c-contents {

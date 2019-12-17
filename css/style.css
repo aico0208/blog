@@ -353,3 +353,9 @@
   padding: 140px 0 60px;
   background: #fbf9f8;
 }
+
+@media screen and (max-width: 767px) {
+  .p-about .u-flex {
+    display: block;
+  }
+}

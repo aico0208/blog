@@ -25,9 +25,6 @@
 }
 
 .p-headermenu{
-  @media screen and (max-width: 767px){
-    // display: none;
-  }
   &.u-flex{
     @media screen and (max-width: 767px){
       display: block;
@@ -35,12 +32,32 @@
   }
   li{
     padding: 0 24px;
-    @media screen and (max-width: 767px){
-      padding: 0 0 20px 0;
-    }
     a{
+      position: relative;
       display: block;
+      @media screen and (max-width: 767px){
+        font-size: 16px;
+        padding: 20px 0 20px 30px;
+      }
+      &:before{
+        @media screen and (max-width: 767px){
+          content: '';
+          width: 20px;
+          height: 1px;
+          margin: auto;
+          background: #555;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+        }
+      }
     }
+  }
+  &__subja{
+    font-size: 12px;
+    padding-left: 8px;
+    display: inline-block;
   }
 }
 
@@ -50,7 +67,7 @@
   position: fixed;
   top:  20px;
   right: 20px;
-  z-index: 10;
+  z-index: 11;
 }
 
 .c-spbtn{
@@ -94,5 +111,28 @@
         transform: translate(0, 0px) rotate(-45deg);
       }
     }
+  }
+}
+
+//spmenu
+
+.u-displaynone{
+  &__sp{
+    @media screen and (max-width: 767px){
+      // display: none;
+    }
+  }
+}
+
+.c-spheadermenu{
+  @media screen and (max-width: 767px){
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: ease-in-out 0.5s;
   }
 }

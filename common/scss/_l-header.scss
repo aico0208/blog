@@ -97,7 +97,7 @@
     }
   }
 
-  &:active{
+  &.active{
     border: 1px solid #ef9c9c;
     span{
       background: #ef9c9c;
@@ -119,8 +119,14 @@
 .u-displaynone{
   &__sp{
     @media screen and (max-width: 767px){
-      // display: none;
+      display: none;
     }
+  }
+}
+
+#menu{
+  .open{
+    display: block;
   }
 }
 
@@ -134,5 +140,11 @@
     left: 0;
     z-index: 10;
     transition: ease-in-out 0.5s;
+  }
+  &__menulogo{
+    margin: 34px 24px;
+    img{
+      width: 75px;
+    }
   }
 }

@@ -224,30 +224,40 @@ h3:before {
   transform: translate(0, 5px);
 }
 
-.c-spbtn:active {
+.c-spbtn.active {
   border: 1px solid #ef9c9c;
 }
 
-.c-spbtn:active span {
+.c-spbtn.active span {
   background: #ef9c9c;
 }
 
-.c-spbtn:active span:nth-of-type(1) {
+.c-spbtn.active span:nth-of-type(1) {
   -webkit-transform: translate(0, 0px) rotate(45deg);
   -ms-transform: translate(0, 0px) rotate(45deg);
   transform: translate(0, 0px) rotate(45deg);
 }
 
-.c-spbtn:active span:nth-of-type(2) {
+.c-spbtn.active span:nth-of-type(2) {
   -webkit-transform: translate(0px, 0px) scale(0, 1) rotate(0deg);
   -ms-transform: translate(0px, 0px) scale(0, 1) rotate(0deg);
   transform: translate(0px, 0px) scale(0, 1) rotate(0deg);
 }
 
-.c-spbtn:active span:nth-of-type(3) {
+.c-spbtn.active span:nth-of-type(3) {
   -webkit-transform: translate(0, 0px) rotate(-45deg);
   -ms-transform: translate(0, 0px) rotate(-45deg);
   transform: translate(0, 0px) rotate(-45deg);
+}
+
+@media screen and (max-width: 767px) {
+  .u-displaynone__sp {
+    display: none;
+  }
+}
+
+#menu .open {
+  display: block;
 }
 
 @media screen and (max-width: 767px) {
@@ -263,6 +273,14 @@ h3:before {
     -o-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
+}
+
+.c-spheadermenu__menulogo {
+  margin: 34px 24px;
+}
+
+.c-spheadermenu__menulogo img {
+  width: 75px;
 }
 
 .l-container {
@@ -348,6 +366,10 @@ h3:before {
 .l-footer {
   font-family: 'Open Sans', sans-serif;
   background: #fbf9f8;
+}
+
+.l-footer .l-container {
+  max-width: 94%;
 }
 
 .p-footercontents {

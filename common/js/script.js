@@ -1,16 +1,12 @@
 
 $(function(){
   $('#spmenubtn').on('click',function(){
-    if($('#menu').hasClass('open')){
-      $('#menu').removeClass('open');
+    if($('.c-spbtn').hasClass('active')){
+      $('.c-spbtn').removeClass('active');
+      $('.c-spheadermenu').removeClass('open');
     }else{
-      $('#menu').addClass('open');
-    }
-
-    if(this.hasClass('active')){
-      this.removeClass('active');
-    }else {
-      this.addClass('active');
+      $('.c-spbtn').addClass('active');
+      $('.c-spheadermenu').addClass('open');
     }
   });
 });

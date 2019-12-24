@@ -21,6 +21,9 @@
       margin: -40px 0 0 auto;
       position: static;
     }
+    @media screen and (max-width: 800px){
+      width: 93%;
+    }
   }
 }
 
@@ -43,6 +46,9 @@
     padding-left: 50px;
     @media screen and (max-width: 1000px){
       padding-left: 30px;
+    }
+    @media screen and (max-width: 400px){
+      padding-left: 10px;
     }
   }
   &__text{

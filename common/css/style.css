@@ -108,6 +108,12 @@ h3:before {
   margin: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .l-header {
+    width: 90%;
+  }
+}
+
 .l-header h1 img {
   width: 75px;
 }
@@ -180,7 +186,7 @@ h3:before {
 .p-spmenu {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 10px;
   z-index: 11;
 }
 
@@ -259,12 +265,10 @@ h3:before {
     top: 0;
     left: 0;
     z-index: 10;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-transform: translate(0, 100%);
-    -ms-transform: translate(0, 100%);
-    transform: translate(0, 100%);
+    -webkit-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+    display: none;
   }
 }
 
@@ -278,9 +282,7 @@ h3:before {
 
 @media screen and (max-width: 767px) {
   .c-spheadermenu.open {
-    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-    -ms-transform: matrix(1, 0, 0, 1, 0, 0);
-    transform: matrix(1, 0, 0, 1, 0, 0);
+    display: block;
   }
 }
 

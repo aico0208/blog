@@ -251,6 +251,12 @@
   transform: rotate(90deg) translate(100%, 0);
 }
 
+@media screen and (max-width: 400px) {
+  .c-post__date {
+    right: 0px;
+  }
+}
+
 .c-post__category {
   margin-top: 8px;
 }
@@ -268,6 +274,13 @@
 .p-photo {
   margin-bottom: 60px;
   position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .p-photo {
+    margin-bottom: 0;
+    background: #fbf9f8;
+  }
 }
 
 .p-photo__main {
@@ -352,6 +365,13 @@
   margin-top: -60px;
   padding: 140px 0 60px;
   background: #fbf9f8;
+}
+
+@media screen and (max-width: 800px) {
+  .p-about {
+    margin-top: 0;
+    padding: 60px 0;
+  }
 }
 
 @media screen and (max-width: 767px) {

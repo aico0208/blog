@@ -58,6 +58,9 @@
     display: inline-block;
     transform-origin: bottom right;
     transform: rotate(90deg) translate(100%, 0);
+    @media screen and (max-width: 400px){
+      right: 0px;
+    }
   }
   &__category{
     margin-top: 8px;

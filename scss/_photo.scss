@@ -2,6 +2,10 @@
 .p-photo{
   margin-bottom: 60px;
   position: relative;
+  @media screen and (max-width: 800px){
+    margin-bottom: 0;
+    background: #fbf9f8;
+  }
   &__main{
     position: absolute;
     top: 70px;
